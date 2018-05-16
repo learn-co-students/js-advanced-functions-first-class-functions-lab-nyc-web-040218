@@ -47,6 +47,7 @@ describe('index.js', function () {
     it('returns a function', function () {
       const fareMultiplier = createFareMultiplier(2);
 
+
       expect(fareMultiplier).to.be.a('function');
     });
 
